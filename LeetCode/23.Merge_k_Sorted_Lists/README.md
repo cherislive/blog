@@ -1,6 +1,6 @@
 ### 23.Merge k Sorted Lists
 
-Merge k sorted linked lists and return it as one sorted list. Analyze and describe its complexity.
+Merge k `sorted linked lists` and return it as `one sorted list`. Analyze and describe its complexity.
 
 Example:
 
@@ -15,6 +15,8 @@ Output: 1->1->2->3->4->4->5->6
 ```
 
 ### Analyze
+
+此题在两个队列归并算法的基础上扩展为 k 个队列的合并过程。
 
 ```js
 /**
